@@ -1,7 +1,7 @@
 {
-  "name": "merge-config",
+  "name": "merge-config-updated",
   "description": "Merge multiple configuration sources: JSON files and environment properties",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "author": {
     "name": "Jorge Lorenzo Gallardo",
@@ -29,24 +29,24 @@
   "devDependencies": {
     "chai": "^3.0.0",
     "coveralls": "^2.11.2",
+    "eslint": "^0.23.0",
     "istanbul": "^0.3.16",
+    "jscs": "^1.13.1",
     "mocha": "^2.2.5",
     "proxyquire": "^1.5.0",
     "should": "^7.0.1",
     "sinon": "~1.15.3",
     "sinon-chai": "^2.8.0",
     "supertest": "^1.0.1",
-    "xunit-file": "^0.0.4",
-    "jscs": "^1.13.1",
-    "eslint": "^0.23.0"
+    "xunit-file": "^0.0.4"
   },
   "dependencies": {
-    "change-case": "^2.2.0",
-    "yargs": "^4.1.0",
-    "hjson": "^1.6.1",
-    "js-yaml": "3.5.3",
+    "change-case": "^4.1.2",
+    "hjson": "^3.2.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
     "therror": "^0.2.0",
-    "lodash": "^4.5.0"
+    "yargs": "^17.7.1"
   },
   "keywords": [
     "configuration"
