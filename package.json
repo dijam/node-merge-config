@@ -1,7 +1,7 @@
 {
   "name": "merge-config-updated",
   "description": "Merge multiple configuration sources: JSON files and environment properties",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "author": {
     "name": "Jorge Lorenzo Gallardo",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:telefonica/node-merge-config.git"
+    "url": "git@github.com:dijam/node-merge-config.git"
   },
   "main": "lib/configuration",
   "engines": {
